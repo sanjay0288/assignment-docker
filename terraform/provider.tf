@@ -1,11 +1,11 @@
-provider "aws" {
-    region = "ap-south-1"
-}
+//provider "aws" {
+  //  region = "ap-south-1"
+//}
  
-terraform {
-    backend "s3" {
-      region = "ap-south-1"
-      bucket = "tarundanda147"
-      key = "state.tfstate"
-    }
-}
+//terraform {
+ //   backend "s3" {
+  //    region = "ap-south-1"
+   //   bucket = "sanjay0288"
+   //   key = "state.tfstate"
+   // }
+//}
